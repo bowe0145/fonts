@@ -6,20 +6,22 @@
 html{
     font-size: 16px;
     line-height: 1.6;
-    font-family: serif;
+    font-family: "Cormorant Garamond", Times, serif;
 }
 html,body{
     background-color: #d4d4d4;
 }
 h1{
-    font-family: sans-serif;
+    font-family: "Open Sans", Gadget, sans-serif;
     font-size: 3.998rem;
     padding:1rem 2rem;
 }
 h2{
-    font-family: sans-serif;
     font-size: 2.827rem;
     padding:1rem 2rem;
+}
+h1, h2 {
+    font-family: "Open Sans", Gadget sans-serif;
 }
 nav ul{
     padding:1rem 0;
@@ -42,6 +44,7 @@ nav li>a:active{
 p{
     font-size: 1.414rem;
     padding:0.5rem 2rem;
+    font-family: "Cormorant Garamond", Times serif; /* Changing only the body text, not the links */
 }
 main p:last-child{
     padding-bottom: 4rem;
